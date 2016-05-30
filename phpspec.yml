@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: HepC
+        psr4_prefix: HepC
+        src_path: app

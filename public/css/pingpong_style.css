@@ -1,0 +1,107 @@
+#coverImageDropzone, #coverImageTipDropzone, #slideImageDropzone, #mobileCoverImageDropzone, #mobileSlideImageDropzone {
+    width: 240px;
+    height: 300px;
+    background-color: #f5e79e;
+    border: 1px dotted #000080;
+    padding: 5px;
+    padding-top: 50%;
+    text-align: center;
+}
+#coverImagePDP, #coverImageHP, #mobileCoverImagePDP {
+    background-color: #f4f4f4;
+    border: 1px dashed #000080;
+    padding: 5px;
+}
+#coverImagePDP, #mobileCoverImagePDP{
+    width: 200px;
+    height: 200px;
+
+}
+#coverImageHP{
+    width: 120px;
+    height: 150px;
+}
+.sliderThumbnail, .sliderVideo{
+    width: 120px;
+    height: 75px;
+    float: left;
+    margin: 5px;
+    background-size: cover;
+    display: block;
+    background-color: #F6F6F6;
+}
+.deleteSlide{
+    float: right;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #FFF;
+    padding: 5px;
+}
+.sliderVideo .deleteSlide{
+    position: relative;
+    top: -80px;
+
+}
+.deleteSlide:hover{
+    color: #ff2222;
+}
+
+#sliderPreview {
+    display: block;
+    min-height: 178px;
+    background-color: #f4f4f4;
+}
+
+.dropzonePDF {
+    height: 100px;
+    width: 275px;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    border: 1px dashed #c1c1c1;
+    cursor: pointer;
+}
+.dropzonePDF:hover {
+    background-color: #f5e79e;
+
+}
+.pdfEmbed {
+    width: 275px;
+    height: 350px;
+    padding: 10px;
+    border: 1px solid #DDD;
+    display: block;
+}
+
+.dragHere {
+     display: block;
+     position: relative;
+     top: 45%;
+     margin: 0 auto;
+     width: 150px;
+}
+.pdfTypeTitle{
+    height: 30px;
+    font-weight: bold;
+}
+.deletePDF{
+    position: relative;
+    top: -388px;
+    left: 250px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #DDD;
+    padding: 5px;
+
+}
+.deletePDF:hover{
+    color: #ff2222;
+
+}
+
+td.actions {
+    width: 200px;
+}
+
+#noDZPreview {
+    display: none;
+}
